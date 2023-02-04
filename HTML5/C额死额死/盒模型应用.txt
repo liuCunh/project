@@ -1,0 +1,20 @@
+避免精确计算：
+	设置css属性box-sizeing：border-box
+	
+改变背景覆盖范围
+	默认情况下，背景覆盖边框盒
+	可以通过css样式的background-clip属性进行修改
+
+溢出处理:
+当内容太多了，溢出到了属性的外面可以使用css样式中的
+overflow: hidden 隐藏超出边界的内容；auto 自动调整； scroll 使用滚动条 
+断词规则：文本末尾的时候放不下了，可以使用css属性
+	word-break: 影响文本在什么位置被截断
+	 normal: 普通cjk字符(文字截断)，非CJK字符(单词位置截断)
+	 break-all：截断所有，所有字符都在文字处截断
+	 keep-all：保持所有，所有文字都在单词之间截断
+
+空白处理：
+	white-space：
+		pre: 保留格式
+		nowrap: 文本溢出时显示三个点

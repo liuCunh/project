@@ -1,0 +1,13 @@
+input[type="text"], textarea, select{
+	border: 1px solid #999;
+}
+
+/* 选择input标签中样式为文本的，聚焦元素 */
+input[type="text"]:focus, textarea:focus, select:focus{
+	border: 1px solid #008c8c;
+}
+
+button{
+	border: 1px solid #008c8c;
+	border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- 
+	css书写位置：
+		1、内联样式表：元素样式表中，直接写道body下的标签中
+		   eg: <h1 style:"color: red;"> </h1>
+		2、内部样式表：书写到head>style标签中
+		3、外部样式表
+	css规则 = 选择器 + 声明块
+	选择器：选中元素
+		1、id选择器(只能选择一个)
+		2、元素选择器(网页中所有元素均拥有该属性)
+		3、类选择器
+	声明块：
+		出现在大括号中，用分号(;)结束。也叫做属性，每一个声明(属性)表达了某一方面的样式
+	
+	-->
+	<!-- 外部样式表引用 -->
+	<link rel="stylesheet" href="css/index.css">
+	<style>
+		/* 这是一个元素选择器的css样式 */
+		h1{
+			color:red;  /*  */
+			background-color:lightblue;  /*  */
+			text-align: center;  /*  */
+		}
+		
+		/* 这是一个id选择器的样式 */
+		#test {
+			color:blue;
+		}
+		/* 这是一个类选择器的样式 */
+		.red {
+			color: red;
+		}
+		.big-center {
+			font-size: 3em;  /* 3倍的字体大小 */
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		h1: 现在开始添加样式
+	</h1>
+	<p id="test">p: Lorem ipsum dolor sit.</p>
+	<p class="big-center red">p: 同时继承连big-center跟red这两个类.</p>
+	<p class="red">p: Atque maiores odio molestiae officia officiis.</p>
+	<p class="red">p: Quis magni consectetur delectus alias reprehenderit.</p>
+	<!-- 这里在引用外部样式表 -->
+	<div class="red-big-center">p: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+</body>
+</html>

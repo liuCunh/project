@@ -1,0 +1,9 @@
+a{
+	color: red;  /* !important最高重要性 */
+	text-decoration: none;
+	font-style: italic;
+}
+.act{
+	color: white;
+	background-color: red;
+}

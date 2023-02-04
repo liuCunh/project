@@ -1,0 +1,94 @@
+body{
+	background: url("../imgs/bg.jpg") no-repeat center top;
+	color: #f8b779;
+}
+
+.clearfix::after{
+	contain: "";
+	display: block;
+	clear: both;
+}
+.header{
+	width: 1190px;
+	margin: 45px auto 0px;
+	border: 1px solid #3f2a22;
+	background: url("../imgs/bg_nav.jpg") no-repeat center top/100% 100%;
+	position: relative;
+}
+
+.header nav a{
+	float: left;
+	display: block;
+	width: 161px;
+	height: 73px;
+	text-align: center;
+	line-height: 73px;
+	border: 1px solid #3f2a22;
+	box-sizing: border-box;
+}
+.header nav a:nth-child(3){
+	margin-right: 224px;
+}
+
+.header .logo{
+	width: 238px;
+	height: 118px;
+	position: absolute;
+	background: url("../imgs/logo.png") no-repeat center top/100%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -42px;
+}
+
+.menu{
+	 text-align: center;
+	 margin-top: 473px;
+}
+
+.menu a{
+	display: inline-block;
+	width: 323px;
+	height: 102px;
+	background: url("../imgs/btns.png") no-repeat;
+}
+.menu a>h1{
+	display: none;
+}
+
+.menu a.right{
+	background-position: -323px;
+}
+
+.adv{
+	width: 1391px;
+	margin: 70px auto;
+}
+.adv .item{
+	float: left;
+	margin-right: 14px;
+	width: 290px;
+	height: 200px;
+}
+.adv .item:last-child{
+	margin-right: 0;
+}
+.adv .item .title{
+	background: #211510;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 2px solid #3f2a22;
+}
+
+.adv .item .img{
+	width: 290px;
+	height: 150px;
+	border: 2px solid #3f2a22;
+	box-sizing: border-box;
+	border-top: non;
+}
+.adv .item .img img{
+	width: 288px;
+	height: 150px;
+}
