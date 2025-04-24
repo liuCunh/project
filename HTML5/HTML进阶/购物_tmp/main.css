@@ -1,0 +1,89 @@
+.q{
+	margin-top: 20px;
+	margin-left: 700px;
+	width: 60%;
+}
+.q.w{
+	height: 70px;
+	padding: 2px 6px;
+	line-height: 70px;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	background: red;
+	border-radius: 15px;
+}
+.slider-wrapper{
+	width: 55%;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+.mdd_silde{
+	overflow: hidden;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.mdd_silde li{
+	float: left;
+	width: 20%;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+}
+.mdd_silde li a{
+	display: block;
+	padding-right: 5px;
+}
+.mdd_silde img{
+	width: 100%;
+}
+.mdd_silde span{
+	height: 30px;
+	padding: 3px 6px;
+	line-height: 30px;
+	font-size: 13px;
+	color: blue;
+	position: absolute;
+	left: 10px;
+	bottom: 120px;
+	background: yellow;
+}
+.fia{
+	left: 3%;
+	position: relative;
+}
+.fia li{
+	float: left;
+	width: 20%;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	font-size: 12px;
+}
+.fia li a{
+	display: block;
+	padding-right: 30px;
+}
+.Foot{
+	margin: 0 auto;
+	padding: 8px;
+	padding-top: 120px;
+	color: #666;
+	max-width: 800px;
+}
+.Foot a{
+	color: black;
+	text-decoration: none;
+}
+.Foot a:hover{
+	width: 10%;
+	float: left;
+	font-size: 15px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+}
+.Foot.link li a{
+	display: block;
+}

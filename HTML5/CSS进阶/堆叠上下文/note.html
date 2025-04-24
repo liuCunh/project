@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		/* .container{
+			position: relative;
+			z-index: 1;
+		} */
+		
+		
+		/* html{
+			background-color: lightblue;
+		}
+		.container{
+			background-color: #008c8c;
+			width: 200px;
+			height: 200px;
+			position: relative;
+			margin: 50px;
+		}
+		.item{
+			width: 100px;
+			height: 100px;
+			background: red;
+			z-index: -1;
+			position: absolute;
+			left: -30px;
+			top: -30px;
+		}
+		.normal{
+			width: 200px;
+			height: 200px;
+			background-color: chocolate;
+		}
+		.float{
+			width: 200px;
+			height: 200px;
+			background-color: brown;
+			float: left;
+			margin-left: 100px;
+		} */
+		
+		
+		html{
+			background-color: lightblue;
+		}
+		.c1{
+			position: relative;
+			z-index: 0;
+			width: 200px;
+			height: 200px;
+			background-color: #008c8c;
+			
+		}
+		.c2{
+			position: absolute;
+			z-index: -1;
+			width: 200px;
+			height: 200px;
+			background-color: chocolate;
+			left: 100px;
+			top: 100px;
+		}
+		.item1, .item2{
+			position: absolute;
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+			color: #fff;
+		}
+		.item1{
+			right: -50px;
+			bottom: -50px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="c1">
+		<div class="item1" style="background-color: red;">c1-item1</div>
+		<div class="item2">c1-item2</div>
+	</div>
+	<div class="c2">
+		<div class="item1" style="background-color: rgb(145, 0, 0)">c2-item1</div>
+		<div class="item2">c2-item2</div>
+	</div>
+	
+	
+	<!-- <span style="background-color: lightcoral;">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nesciunt quidem molestiae fugiat adipisci dicta maxime labore repellendus possimus, error, fugit exercitationem saepe. Architecto explicabo cumque, eum vitae nesciunt error.
+	</span>
+	<div class="container">
+		<div class="item"></div>
+	</div>
+	<div class="normal"></div>
+	<div class="float"></div> -->
+	
+	<!-- <div class="container">
+		<div><p></p></div>
+	</div> -->
+</body>
+</html>

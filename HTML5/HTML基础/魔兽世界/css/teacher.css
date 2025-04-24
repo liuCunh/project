@@ -1,0 +1,99 @@
+body{
+	background: url("../imgs/bg.jpg") no-repeat center top;
+}
+
+ .clearfix::after{
+	 contain: "";
+	 display: block;
+	 clear: both;
+ }
+.header{
+	width: 1198px;
+	height: 73px;
+	line-height: 73px;
+	color: #f8b779;
+	margin: 0px auto;
+	margin-top: 45px;
+	background: url("../imgs/bg_nav.jpg") no-repeat 0 0/100% 100%;
+	border: 1px solid #3f2a22;
+	border-left: none;
+	border-right: none;
+	position: relative;
+}
+
+.header nav a{
+	float: left;
+	width: 161px;
+	height: 73px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #3f2a22;
+	border-top: none;
+	border-bottom: none;
+}
+.header nav a:nth-child(3){
+	margin-right: 232px;
+}
+.header .logo{
+	position: absolute;
+	width: 238px;
+	height: 118px;
+	background: url("../imgs/logo.png") no-repeat;
+	left: 6px;
+	right: 0;
+	top: -37px;
+	margin: auto;
+}
+.header .logo h1{
+	display: none;
+}
+.menu{
+	text-align: center;
+	margin-top: 473px;
+}
+.menu a{
+	display: inline-block;
+	width: 323px;
+	height: 105px;
+	background: url("../imgs/btns.png") no-repeat;
+}
+.menu a span{
+	display: none;
+}
+.menu a.download{
+	background-position: -323px 0;
+}
+
+.adv{
+	width: 1203px;
+	margin: 76px;
+	
+}
+
+.adv .item{
+	float: left;
+	width: 290px;
+	height: 200px;
+	margin-right: 14px;
+	outline: 2px solid #3f2a22;  /* 外边框: 不占据位置 且 一次只能设置四边 */
+}
+
+.adv .item:last-child{
+	margin-right: 0;
+}
+.adv .item .title{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #211510;
+	color: #f8b700;
+	box-sizing: border-box;
+	border-bottom: 2px solid #3f2a22;
+}
+.adv .item .img{
+	height: 150px;
+}
+.adv .item .img img{
+	width: 290px;
+	height: 150px;
+}

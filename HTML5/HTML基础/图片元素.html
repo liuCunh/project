@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<a href="https://ys.mihoyo.com/main/character/inazuma?char=1" target="_blank">
+			
+		</a>
+			<!-- 在图片上生成额外的连接 -->
+			<!-- figure将图片跟文字结合，用作图文说明，标题部分处于figcaption -->
+		<figure>
+			<img usemap="#wanYeMap" src="img/1.JPG" alt="这是抽到万叶的截图">
+			<figcaption>
+				<h2>万叶</h2>
+			</figcaption>
+			<p>聚怪小能手</p>
+		</figure>
+		
+		<!-- 坐标误差时，可以使用较为专业的截图工具 qq截图不准备是因为屏幕是125%大小的，不是100%。所以就出现了误差 -->
+		<map name="wanYeMap">
+			<area shape="circle" coords="1206, 210, 97" href="https://www.baidu.com/" target="_blank"> <!-- 圆形中coords属性: 圆心坐标，圆的半径 -->
+			<area shape="rect" coords="237,728,550,815" href="https://www.baidu.com/" target="_blank">  <!-- 矩形的coords属性：左上角坐标，右下角坐标 -->
+			<area shape="" coords="" href="" alt="">		<!-- 多边形, 依次藐视每一个点的位置 -->
+		</map>
+	</body>
+</html>
